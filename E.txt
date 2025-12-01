@@ -4,6 +4,15 @@ game.StarterGui:SetCore("SendNotification", {Title="整合腳本"; Text="by kexu
 
 loadstring(game:HttpGet("https://pastebin.com/raw/BjEGdUQW"))()
 
+local notif = loadstring(game:HttpGet("https://raw.githubusercontent.com/IceMinisterq/Notification-Library/Main/Library.lua"))()
+
+-- 建立一個函數呼叫通知
+function info(t_ype, txt, dly)
+    notif:SendNotification(t_ype, txt, dly)
+end
+
+-- 測試通知
+info("Info", "script by kexaun>:D", 5)
 
 
 local Players = game:GetService("Players")
@@ -63,3 +72,4 @@ end
 end
 
 end)
+

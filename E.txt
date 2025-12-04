@@ -1,5 +1,9 @@
 loadstring(game:HttpGet("https://pastefy.app/iZTXrNcM/raw",true))()
 
+選單>
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Krovyn/KrovynHub/refs/heads/main/TOP_PVP"))()
+
+fast attack>
 game.StarterGui:SetCore("SendNotification", {Title="整合腳本"; Text="by kexuan"; Duration=4;})
 
 loadstring(game:HttpGet("https://pastebin.com/raw/BjEGdUQW"))()
@@ -72,4 +76,5 @@ end
 end
 
 end)
+
 
